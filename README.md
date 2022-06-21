@@ -77,3 +77,32 @@ python3 train_pytorch.py --lr 0.1 --epochs 15 --net MnistResNet --data-dir ../da
 ```
 
 
+## 引用
+
+如果你也在进行相关的工作并且本项目的代码可以对你的研究提供帮助，欢迎引用：
+
+使用bibtex：
+
+* 本项目的代码
+
+```latex
+@misc{oraclemnisthomework,
+   author = {Chen, Wentao},
+   title = {Experiments and Explorations on Classification Based on Oracle-MNIST Dataset},
+   howpublished = {\url{https://github.com/realmadridchenwentao/Oracle-MNIST}}
+}
+```
+
+* 数据集论文
+
+```latex
+@article{wang2022oracle,
+  title={Oracle-MNIST: a Realistic Image Dataset for Benchmarking Machine Learning Algorithms},
+  author={Wang, Mei and Deng, Weihong},
+  journal={arXiv preprint arXiv:2205.09442},
+  pages={1--7},
+  year={2022}
+}
+```
+
+
